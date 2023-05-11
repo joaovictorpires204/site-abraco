@@ -1,0 +1,684 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css" >
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script language="JavaScript1.1" src="../js/scripts.js" type="text/javascript"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="https://kepler.hinova.com.br/sga/system/imagem/sga.v4/favicon.png"  rel="shortcut icon">
+<title>SGA - RELATORIO DE BOLETOS</title>
+<link href="../../system/css/sga.v4/menuStyle4.0.php" rel="stylesheet" type="text/css" />
+<link href="../../system/css/sga.v4/menuStyle4.0.css" rel="stylesheet" type="text/css" />
+<link href="../../system/css/sga.v4/menuNav-h.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../../system/css/sga.v4/autoSuggest.css" type="text/css" media="screen" charset="iso-8859-1" />
+<style type="text/css">
+<!--
+.style1 {font-family: calibri}
+body {
+    background-color: #FFFFFF;
+}
+.styleRED {color: #FF0000}
+-->
+</style>
+</head>
+<body>
+<table width="100%" height="35"  border="0" align="center" cellpadding="0" cellspacing="0" style="border:solid 1px #0a328d">
+          <tr>
+            <td height="18" colspan="8" bgcolor="#CCCCCC">
+                <div class="left">
+                    <img src="../img/logo_cliente.jpg" width="150" height="60" border="0" />
+                </div>
+                <div style="margin-left: 150px; height: 60px; text-align: center;"><span style="top: 20px;position: relative;font-weight: bold;">RELATÓRIO DE BOLETOS</span></div>
+            </td>
+        </tr>
+          <tr>
+                    <td height="25" bgcolor="#F0F0F0" class="labelNegrito caixaInferiorEsquerdaRelatorio" scope="col"><div align="left" style="margin-left:7px">Nome</div></td>
+                    <td height="25" bgcolor="#F0F0F0" class="labelNegrito caixaInferiorEsquerdaRelatorio" scope="col"><div align="left" style="margin-left:7px">Placas</div></td>
+                    <td height="25" bgcolor="#F0F0F0" class="labelNegrito caixaInferiorEsquerdaRelatorio" scope="col"><div align="left" style="margin-left:7px">Situação Veículo</div></td>
+                    <td height="25" bgcolor="#F0F0F0" class="labelNegrito caixaInferiorEsquerdaRelatorio" scope="col"><div align="left" style="margin-left:7px">Dia Vencimento Veiculo</div></td>
+                    <td height="25" bgcolor="#F0F0F0" class="labelNegrito caixaInferiorEsquerdaRelatorio" scope="col"><div align="left" style="margin-left:7px">Data Pagamento</div></td>
+                    <td height="25" bgcolor="#F0F0F0" class="labelNegrito caixaInferiorEsquerdaRelatorio" scope="col"><div align="left" style="margin-left:7px">Valor</div></td>
+                    <td height="25" bgcolor="#F0F0F0" class="labelNegrito caixaInferiorEsquerdaRelatorio" scope="col"><div align="left" style="margin-left:7px">Tipo Boleto</div></td>
+                    <td height="25" bgcolor="#F0F0F0" class="labelNegrito caixaInferiorEsquerdaRelatorio" scope="col"><div align="left" style="margin-left:7px">Situacao</div></td>
+            </tr>
+    <tr>
+        <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=OTE0NjU3NDgwNDQwMg==&operacao=MjYyMDgzNjQw&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">MINAS LANCHE UNIVERSITáRIO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=NDM3MDMzNDQyNjM=&noMenu=!', '800', '600','yes','yes');">PWD2779</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">1</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">01/10/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">R$ 81,00</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=652e3bdf2ec31d4a159f38c2150f9506d83367143a54bd4f1eafccae237149b6e565f096b41013e938ae2efd64f7795e9d90615fac05275ae8cb5860486fa2fe','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=NjQ4NTc3NDg4MzEyNg==&operacao=MzQyMDA0NzU1&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">MINAS LANCHE UNIVERSITáRIO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=MTAxOTk0MzQ5OTQw&noMenu=!', '800', '600','yes','yes');">QXJ7302</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">1</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">01/10/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">R$ 91,00</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=3e3649dfedd83045c8c10d87ccd66c18cad97b0b91facabcd661a02463cd3d31a352b3cdfa871189f7992fbdd7a58702c82891c178b53ec2b0d9a27b0c7b591e','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=NzQ4MzU5MzYwMzYwMA==&operacao=NjAzMzY4Mzgz&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">MINAS LANCHE UNIVERSITáRIO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=MjIxNjE2MDIxNjI=&noMenu=!', '800', '600','yes','yes');">QXY9D01</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">1</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">01/10/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">R$ 91,00</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=d2ee662d5bb5caae65f6ea9d390702673de29ce3b8ef6da006592eaeb1f89125c1ca0ae9b5e4bf769230e46d855d65193adbe48e2a341385b104b26012a04c2f','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=MTM4NTAzNjI0NDY2NjQ=&operacao=MzY1NzY1MDgx&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">WANDERSON RIBEIRO DIAS</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=ODcyNjg1MTI5Mg==&noMenu=!', '800', '600','yes','yes');">EDV3818</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">2</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">05/10/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">R$ 136,86</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=a2943ed010ed923586bd708c8ef3e3afd747c65df79f467ee56bfff366cae44b671502b2adef36bd449dd8dd30e602a0259f425984ac6b04dd07c60b27223321','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=NDI2MzI1OTk1MjA1NA==&operacao=MzIyNTY0NDgw&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">JAIME CESAR DE CARVALHO NETO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=NTA0ODUwODUxNDM=&noMenu=!', '800', '600','yes','yes');">PWC6484</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">5</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">05/10/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">R$ 81,00</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=f55f9cfb8ff890f9585440cf483804d016cdc322f722eac043ce739de415b571acb5e684d6cd4cd75390aaa890ffc0b978231a74c63ac8aecdfac09778478e93','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=NjgwMDQ1ODc3MzI3MA==&operacao=NjkyNjQ5NjI2&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">AUGUSTO PEREIRA NETO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=MTUwODYwODE2NjM=&noMenu=!', '800', '600','yes','yes');">DRT6569</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">6</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">07/10/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">R$ 137,90</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=68ffe039d0f701f6339c8b3a2921aec8f0664740667448c80e97d69a57c515cb2aac6003e690195a2b27af044045064af17e4685af4e505756ce8dd90bd6db77','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=ODEzMTQ2Mjc4MzkxMA==&operacao=MTEzMDQxNTc2&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">WAIRES LEMES MARTINS</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=MTU1NTQ3NjE1NjY=&noMenu=!', '800', '600','yes','yes');">PAV3815</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">6</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">08/10/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">R$ 367,48</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=bd0e4868eeeaf50a648685ee983d20934d0794af5f0736f7b76cf5fa9b6aa16041b3f843d2393df252ec6b5424067acef90adb4695efdc4c5043e725aba97cac','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=NDA1NTI3MDcwMTk1NA==&operacao=Mjg2NTYzOTg1&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">EDMILSON CACIANO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=NjQzNTM2MDczODE=&noMenu=!', '800', '600','yes','yes');">GWD2671</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">2</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">09/10/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">R$ 90,99</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=aa3b7656aa9fd9e99a6e0d8de512053fb2386361105bed8bf041631dfe5acaf858b4400ecd51937a897507dae99a4b95c74f33bc15461c44093ca152d71f3504','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=MTU5OTI2MzE1NDc2OTY=&operacao=NzcwNDEwNzQ=&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">IDEVALDO ALVES DE CASTRO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=MjU3NDE3NjQxMjM=&noMenu=!', '800', '600','yes','yes');">HBN9587</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">12</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">09/10/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">R$ 94,93</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=58ec8ec377a84ca7e953d5c92a299d44cd4606eab149bbef7b29188d7e6861d42e40d7b92dc1c2aa0a64a1b9f51f01d75d4f627b9e98c11550e66710c66718b2','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=MTMwMTg4NDY4ODYyNjY=&operacao=MjMzMjgzMjQ0&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">REJANE RUFINO  BATISTA</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=NTM5ODI5OTUxMzQ=&noMenu=!', '800', '600','yes','yes');">HEO8711</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">14</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">16/10/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">R$ 113,90</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=c21d4d672f2389abdc01619b0d5ade84c19de0f08df4312867c3fb6a425b086e662710d0b30ee19b35209ecdbeb14835bed8dc0721a03f17053916e8432540ae','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=MTk5MzAwODgzMDk1ODE=&operacao=NDc4MDg2NjQ1&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">RICARDO ANTONIO MARTINS PEREIRA</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=NzY5OTg2Njc3ODY=&noMenu=!', '800', '600','yes','yes');">ODL9400</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">15</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">20/10/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">R$ 136,86</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=fe2e91b07af4f28866c0e170a05fe7ec84fc7fc4fcc2bdbc21a18b73d9ad6059ecb80c5a2039e63c529873b585bd9f747f57374edbda0e654217338d12e688b9','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=ODAwOTQ5NzY1Mzg1MA==&operacao=NjMxNDQ4Nzc0&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">PAULO CARLOS MOREIRA DA SILVA</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=MjYxNzc5MTI1MzE=&noMenu=!', '800', '600','yes','yes');">ELX8C09</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">10</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">20/10/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">R$ 92,93</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=91a4fc618e70e86340f6b7c439068f04e207e7915152930c80a6b151d65f61fc623a6f9ebb64a4ffd662428a7785ef0274b723eb86203156d84a002adc8273ad','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=NzkwNTQ5MzQwMzgwMA==&operacao=MTcwNjQyMzc1&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">GLEICE MOREIRA ROCHA</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=Njk0ODk2MDk5MjQ=&noMenu=!', '800', '600','yes','yes');">EBN1869</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">20</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">20/10/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">R$ 115,90</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=7c2d7f7ed23bc86e08e7b84e7b97fe16995301af2cf2ef75a9209d1e2bf720ce08a76985a8fefb4484819796f263d5737fef42c23efeb43a5fbb911878628ee4','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=MTAzMTg3NjQxNjQ5NjQ=&operacao=NTc4MTY4MDMz&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">JULIA KELLY DOS SANTOS</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=NTA3MjUwMDUwMDY=&noMenu=!', '800', '600','yes','yes');">HID0628</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">10</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">20/10/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">R$ 94,94</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=091e3f0d89d98e81b94d0c8d38d91830fceec01e4fbd3d0890cff1391afb004e040b472059ff3f50d8fe75feec23f9a02c30fd5dca659f274bee897e5965bf08','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=MTA5NDQzNzY4MDUyNjA=&operacao=NjUzNzY5MDgz&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">EDIANE CALEARE CARVALHO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=NzQ2NzQ4ODg0ODA=&noMenu=!', '800', '600','yes','yes');">JKE8723</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">20</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">22/10/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">R$ 183,05</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=8049304ded613a0b05abd3d2e68286ac0df3aa09e2c4ee1a6bbf857baa45b55f437ddf0d90b087b690879adf6c84f74f7747a25464aa1185c5c1e0a3c519aece','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=MTk1NTg1MjM2MDk0MDA=&operacao=MTY5OTIyMzYz&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">KELVEN BORGES PILA GOMES</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=ODI2NDkwMTgxMTE=&noMenu=!', '800', '600','yes','yes');">OWR8F08</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">10</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">26/10/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">R$ 92,94</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=6fc75a58318da5daeab858f2adc1739d84928f27b7aa147071bd8bb4d635eaf6c4b2072f2735b5ea6256b3f43a8afddf86e3319029d836bd45eac76ec313ef08','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=MjIyNjM0NTc5MTA3Ng==&operacao=MzgwMTY1Mjg2&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">SEBASTIAO DE FREITAS FRANCISCO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=ODM5MjgwMjg2OTU=&noMenu=!', '800', '600','yes','yes');">PUM6635</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">26</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">26/10/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">R$ 125,91</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=92f0619d3bf8610f1df1786c18fe0eaf85091575c588319fd55a575dbded50408bd6a861bce601b4a4d90d3c79ece2ed5c5d53a42255fb7b87bc6728f382c15f','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=MzQxMjMxODQ4MTY0Ng==&operacao=NDQ5Mjg2MjQy&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">RAFAEL GOMES MAIOLINI TAVARES</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=MjM4ODU4MjI2NzA=&noMenu=!', '800', '600','yes','yes');">OLV9922</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">21</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">27/10/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">R$ 187,73</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=5a2b0d6757a2957b4d52586b2f0a86363c2fe0b1cb8c7df9a71b35fd98d275c7b39f8c11e84d3d42d43c9c611b0d342a0036557b23cf6c45d087f3e6e9400bd0','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=MTY2ODcyNjIxMjgwMjY=&operacao=MjgzNjgzOTQ0&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">MATHEUS GEORGE SANTOS COSTA</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=Mjg2NTUwMDI3NTE=&noMenu=!', '800', '600','yes','yes');">NYE1E13</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">26</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">27/10/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">R$ 247,68</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=155c776c869d289d81c5d9225b1c93de901484bb722bae1409a6e8147eaeec8a09f5d092b933154ee31344ef309b55457576f1f1f468d36e36cb46c29b10cad5','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=NDQ3NDM0NzgwMjE1Mg==&operacao=NjYyNDA5MjA2&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">DELMO DOMINGOS BARBOSA</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=Mzc1ODQ2ODQ5OTA=&noMenu=!', '800', '600','yes','yes');">OWX9879</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">28</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">28/10/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">R$ 71,00</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=884395b7822fd46731f9809ba7a2b3b827a9a339face9a24050a7cf9ff8f15c368dafc019f9378bdd3c3c8df5c2b3d6dd15c218f26650b9f794435ae9661cc9b','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=MTMwOTAwNzQ5NzYyOTA=&operacao=NjMyODg4Nzkx&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">YGOR FERREIRA BARCELOS</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=MTQ0NTMzMjE2NDA=&noMenu=!', '800', '600','yes','yes');">HCF7765</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">28</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">29/10/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">R$ 165,80</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=8b53eb20033b51eba8dba22c4dbde85cd69e3b927909056b903655caa28d9332c35067d1320a38760ba745bcdd192e9a634a77da201f4893a8f2e2fe92f89faf','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=ODQ3MDA5MzI4NDA3NA==&operacao=MTkwMDgyNjQz&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">SALLYNE GALDINO DE SOUZA</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=ODk4NTYwOTk0MTM=&noMenu=!', '800', '600','yes','yes');">GYG3703</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">10</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">03/11/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">R$ 110,68</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=1027c7235dcf057abbbf553c9d9587a482dfeb9fa2d231c3bdb80e9111b80bf313d88ca634cdcf42012bf843a0106f572af94d5839f7845dce76965b1f42a13e','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=MTE2NzUwNjYzNzU2MTM=&operacao=MzkyNDA1NDU1&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">ROBERTO DIAS DE ALENCAR</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=MTg4OTUyNDE3OTA=&noMenu=!', '800', '600','yes','yes');">RFG6C76</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">4</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">05/11/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">R$ 81,00</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=e82084d7b283e62486d22e4ca8c88dd4dfbfce45a83e0c0b25cf4c1aa91f82312d999105ec9416eac3f252a11717d0908337a85c4726d4dae2436fac586191fa','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=MTE1MDg1ODgwNzU1MzA=&operacao=Njc3NTI5NDE2&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">DANIEL DE SOUSA PEREIRA</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=NjE5NzgxNDg4MjA=&noMenu=!', '800', '600','yes','yes');">HXX9823</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">4</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">05/11/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">R$ 94,93</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=0dbc7d2246df4de63187f44477bb595cbcf391a1dc7117552a632114d88f39057385a37be8bdf41d6da17aa72f76e4392fd6eac74a2a52195ed6276d9791dcf1','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=MTk4MzI4ODMwMDk1MzA=&operacao=MzM2OTY0Njg1&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">MANASSES VILAS BOAS</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=Njk2NDc1NTc5MTA=&noMenu=!', '800', '600','yes','yes');">EVE9844</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">9</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">09/11/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">R$ 246,67</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=6489a0938cd55d03d65946e7e3ca5afc0c2c2febb8ed20a30e83c296e5f93938e897491ee76067d639f9a819e269f67c1ab518068a6898035a43f54ee13fdac0','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=MTY2OTExOTk5NDgwMjM=&operacao=Mjk0NDg0MDk2&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">ELIANA BRITO DOS SANTOS PARDIM</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=NTgzODk3NjkyODM=&noMenu=!', '800', '600','yes','yes');">PVS1664</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">11</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">10/11/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">R$ 77,00</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=e8a0d7ebc381e278402fa56cb8f7ce7197178aba3fe26ca9cf121ae6f176d93aef66427d3324a56c9d2ca1fb26f1db87ee9d9e7ba9b24db2e2971ea31ce8eb19','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=MTI3Nzg1NTU3MjYxNDA=&operacao=Mjk5NTI0MTY2&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">RICARDO FAUSTO VIRGENS RUAS</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=MzE5ODU0MzQ1NzU=&noMenu=!', '800', '600','yes','yes');">HAN5861</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">9</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">10/11/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">R$ 124,84</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=5f7e99a726394dd65fc157fdc0448c6a633618ec4a1b68bb915f7bebd4b91636808bf62e01d9c069dfd9c9688b88a4463e76ea11bd6cf4bcc202d3617e75f3d0','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=MTAwNTIyODI5NDQ4MzA=&operacao=MzQ2MzI0ODEz&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">JORGE ANTONIO NOGUEIRA</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=OTc5NTI4NTk4MTM=&noMenu=!', '800', '600','yes','yes');">PVP9930</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">12</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">13/11/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">R$ 134,88</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=cc8ff82ff467ba7172082b317cd065326e7e6dc659eb3e23d69e88eb7781cb44198766db0490c3cf8dc555318912448f3abfca219c6d927f8c44e425e02ab850','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=MTM1NDg3MjI2NzY1MTA=&operacao=MjA0NDgyODQx&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">HEDER ALVES MARINHO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=MzQ5MDEyNTM3NTI=&noMenu=!', '800', '600','yes','yes');">FDL3587</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">12</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">18/11/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">R$ 136,88</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=8bb755d0df00571b4e98bb455c5971cfef581153055f0052ae3c6a4551b627ba3bbe628b77a10967635780c3045db6f24942755d2e292aec528eaa5066a1e107','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=MTcxOTY1MTA1MjgyNjA=&operacao=Mjg3MjgzOTkw&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">JOAO HERMANO CARDOSO CHAVES</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=MjgxNjE0NDI5NjI=&noMenu=!', '800', '600','yes','yes');">PWM8954</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">20</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">18/11/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">R$ 156,88</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=10cc475f01845fa4d68e0aed4d3c98c2bfc80758843f633111c0bb6055c93d66f24c563d9373ebd5239f8ad9ce1287681669abc791f0fad607ef4a9473bd13bd','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=Njc2NjIzMzUwMzI1NA==&operacao=NjY4MTY5Mjgx&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">GUSTAVO OLIVEIRA ARAUJO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=MTYxNjU2MDE3NjE=&noMenu=!', '800', '600','yes','yes');">PVN7019</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">19</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">20/11/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">R$ 137,11</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=4b247477d942bb23a7bdfecdfd5efc678ec3dcfb33becb3109da694e43a4cf5a7d41444983b0296ebd53efb35fb26fad4d38536d284253bceb01b1adbde3fd52','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=ODExOTQ5MTkwMzkwMw==&operacao=MjQxOTIzMzYw&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">GABRIEL EMILIO LIMA DE OLIVEIRA</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=MjI1NzA3OTM0MTY=&noMenu=!', '800', '600','yes','yes');">GWH4055</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">22</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">20/11/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">R$ 112,22</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=56123896315222bfc996b5547b346230c8b4bc960f10ab0c75fe8a203ba893e3b97dfe3c7394fd0a6e21ae7d5d8eb0963815c1fb20b65baf6e2d4bc5accc061f','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=Njg5MTE1NTIwMzMxMg==&operacao=NTczODQ3OTc1&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">ZENAIDE AUGUSTA ASSIS</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=ODAzOTIwODc4NjI=&noMenu=!', '800', '600','yes','yes');">HCF1598</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">19</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">23/11/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">R$ 92,94</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=057d9cf47343f41dcdd55b8a311f54cf30b2e04892c0afb8f0522fda080655d3caae247e15011d2a4de52108c18f6966a2980dd4f9dea3e3e5f32cd8de54e9b8','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=ODUzNTkwNDgwNDEwMQ==&operacao=MjUyMDAzNTAw&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">VANESA DE FáTIMA RODRIGUES</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=NzU3MzM4NDcyODA=&noMenu=!', '800', '600','yes','yes');">FEJ0382</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">20</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">23/11/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">R$ 185,74</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0"><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="#F0F0F0">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=e8863f6bb526c712a4a12130fe9eb8115a283a3bcbb77c9a2757edd777d9a73e417a5db295c96a4efc60a4afb399770d1da2eea0a8b8141b1834280b5683ec96','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+            <tr ondblclick="fOpen('../boleto/gerarBoletoAvulso.php?key=NjEwMDExNjQzMjkzMw==&operacao=MjE4ODgzMDQ2&layout=B&mensagem=N&desconto=N', '800', '600','yes','yes');">                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">LUCIANA ANDREIA DE SOUZA RODRIGUES</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px"><a style="display:inline-block;" href="javascript: fOpen('../veiculo/consultarVeiculo.php?key=MTkxODQ0ODE5NjA=&noMenu=!', '800', '600','yes','yes');">HET4890</a></div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">ATIVO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">25</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">25/11/2020</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">R$ 167,01</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor=""><div align="left" style="margin-left:5px">REATIVAÇÃO</div></td>
+                                    <td class="label caixaEsquerdaRelatorio" bgcolor="">
+                        <div align="left" style="margin-left:5px">
+                            <a onclick="fOpen('../financeiro/alterarSituacaoBoleto.php?key=76c143c1fab9a48f98c1ef0385f03347eff09feef52c315451f4bfb31ee1f67424ef2b5aa29f2563152e1359525d04c17349520869e70056e3a8524f54a6831b','800', '600','yes','yes');" href="javascript:;">BAIXADO</a>
+                        </div>
+                    </td>
+                    
+            </tr>
+
+                <br />
+    <tr align="center">
+        <td colspan="8">
+            <br />
+            <br />
+
+
+            
+            <br>
+
+            <table width="98%" border="0" cellspacing="0" cellpadding="0">
+
+                <tr>
+                    <td class="barraDivisoriaUsuario">Resumo </td>
+                </tr>
+                <tr>
+                    <td  class="caixa">
+                        <table width="100%" border="0"  class="table table-condensed table-hover table-striped table-bordered sub table-responsive">
+                                                            <tr>
+                                    <td width="25%" class="labelNegrito" align="left">&nbsp;</td>
+                                    <td width="15%" class="labelNegrito" align="left">QTDE BOLETOS</td>
+                                    <td width="20%" class="labelNegrito" align="left">PORCENTAGEM SOBRE QTDE BOLETOS</td>
+                                    <td width="20%" class="labelNegrito" align="left">VALOR TOTAL</td>
+                                    <td width="20%" class="labelNegrito" align="left">VALOR TOTAL PAGO</td>
+                                </tr>
+
+                                <tr><td class="labelNegrito" align="left">BOLETO BAIXADO</td><td class="labelNegrito" align="left">35</td><td class="labelNegrito" align="left">100%</td><td class="labelNegrito" align="left">R$ 4.659,58</td><td class="labelNegrito" align="left">R$ 4.659,58</td></tr>                                <tr>
+                                    <td class="labelNegrito" align="left">TOTAL DE BOLETOS ENCONTRADOS</td>
+                                    <td class="labelNegrito" align="left">35</td>
+                                    <td class="labelNegrito" align="left">100%</td>
+                                    <td class="labelNegrito" align="left">R$ 4.659,58</td>
+                                    <td class="labelNegrito" align="left">R$ 4.659,58</td>
+                                </tr>
+
+                                <tr>
+                                    <td align="left">&nbsp;</td>
+                                    <td align="left">&nbsp;</td>
+                                    <td align="left">&nbsp;</td>
+                                    <td align="left">&nbsp;</td>
+                                    <td align="left">&nbsp;</td>
+                                </tr>
+                            
+                            <tr>
+                                <td width="25%" class="labelNegrito" align="left">TOTAL DE VEÍCULOS ENCONTRADOS</td>
+                                <td width="15%" class="labelNegrito" align="left">35</td>
+                                <td width="20%" class="labelNegrito" align="left">&nbsp;</td>
+                                <td width="20%" class="labelNegrito" align="left">&nbsp;</td>
+                                <td width="20%" class="labelNegrito" align="left">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="labelNegrito" align="left">TOTAL DE ASSOCIADOS ENCONTRADOS</td>
+                                <td class="labelNegrito" align="left">33</td>
+                                <td class="labelNegrito" align="left">&nbsp;</td>
+                                <td class="labelNegrito" align="left">&nbsp;</td>
+                                <td class="labelNegrito" align="left">&nbsp;</td>
+                            </tr>
+                                                                <tr>
+                                        <td class="labelNegrito" align="left">VALOR TAXA HINOVA COBRANÇA</td>
+                                        <td class="labelNegrito" align="left">R$ 0,00</td>
+                                        <td class="labelNegrito" align="left">&nbsp;</td>
+                                        <td class="labelNegrito" align="left">&nbsp;</td>
+                                        <td class="labelNegrito" align="left">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="labelNegrito" align="left">VALOR TOTAL DESCONTADO PELO BANCO</td>
+                                        <td class="labelNegrito" align="left">R$ 48,00</td>
+                                        <td class="labelNegrito" align="left">&nbsp;</td>
+                                        <td class="labelNegrito" align="left">&nbsp;</td>
+                                        <td class="labelNegrito" align="left">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="labelNegrito" align="left">VALOR RECEBIDO</td>
+                                        <td class="labelNegrito" align="left">R$ 4.611,58</td>
+                                        <td class="labelNegrito" align="left">&nbsp;</td>
+                                        <td class="labelNegrito" align="left">&nbsp;</td>
+                                        <td class="labelNegrito" align="left">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="labelNegrito" align="left">DIFERENÇA (Valor Pagamento - Valor)</td>
+                                        <td class="labelNegrito" align="left">R$ 0,00</td>
+                                        <td class="labelNegrito" align="left">&nbsp;</td>
+                                        <td class="labelNegrito" align="left">&nbsp;</td>
+                                        <td class="labelNegrito" align="left">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="labelNegrito" align="left">VALOR ADICIONAL RECEBIDO (JUROS)</td>
+                                        <td class="labelNegrito" align="left">R$ 0,00</td>
+                                        <td class="labelNegrito" align="left">&nbsp;</td>
+                                        <td class="labelNegrito" align="left">&nbsp;</td>
+                                        <td class="labelNegrito" align="left">&nbsp;</td>
+                                    </tr>
+                            
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr><td colspan = "8"><div align="center" class="labelNegritoVermelho"><br><br><tr><td colspan = "8"><div align="right">26/11/2020 - 17:36:45 - KELE DA SILVA GALDINO LISBOA</div></td></tr></table>
+<span class="label">
+<div align="center" style="margin: 10px 0px 0px 10px; color: #000000; background-color: #FFFFFF;">
+		<div align="left">SGA - SISTEMA DE GERENCIAMENTO DE ASSOCIA&Ccedil;AO / VERS&Atilde;O 4.0 </div>
+	<div align="left">HINOVA SOLUÇÕES DIGITAIS - 10.628.874/0001-41</div>
+	</div>
+</span><br />
+<iframe src="about:blank" name="iFrame" width="0" height="0" id="iFrame"></iframe>
+<iframe src="about:blank" name="iFrame2" width="0" height="0" id="iFrame2"></iframe>
+<iframe src="about:blank" name="iFrameCategoria" width="0" height="0" id="iFrameCategoria"></iframe>
+</body>
+<div id="bubble_tooltip">
+    <div class="bubble_top"><span></span></div>
+    <div class="bubble_middle"><span id="bubble_tooltip_content"></span></div>
+    <div class="bubble_bottom"></div>
+</div>
+</html>
