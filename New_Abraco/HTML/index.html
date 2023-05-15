@@ -25,6 +25,13 @@ Surjith S M / @surjithctly
         content="A primeira proteção veicular 100% digital está aqui! Mais proteção e segurança para o seu veículo de fomra simples e pratica!">
     <meta name="author" content="João Victor Pires e Stevan Jackson">
     <link rel="shortcut icon" href="./images/favicon.ico" />
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WMDVX63');</script>
+    <!-- End Google Tag Manager -->
     <!-- Google Font -->
     <link href='https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700' rel='stylesheet' type='text/css'>
     <!-- CSS Plugin Files -->
@@ -276,6 +283,11 @@ Surjith S M / @surjithctly
 <!--========== Start Body  ==========-->
 
 <body class="home" data-scroll-animation="true">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMDVX63"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!--==========Preloader==========-->
     <div id="loading">
         <div id="loading-center">
@@ -288,13 +300,14 @@ Surjith S M / @surjithctly
         </div>
     </div>
 
-
+<div id="header"></div>
     <!--========== Start Header  ==========-->
-    <header class="row" id="header">
+    <header class="row">
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container container-header">
                 <!--========== Brand and toggle get grouped for better mobile display ==========-->
-                <div class="navbar-brand" href="#header" style="position: relative; left: -120px; top: -15px;"><img href="#header" src="images/logo.png" alt=""></div>
+                <ul><li><a href="#header"><div class="navbar-brand" style="position: relative; left: -120px; top: -15px;"><img href="#header" src="images/logo.png" alt=""></div></a>
+</li></ul>
                 <div class="navbar-header">        
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                         data-target="#main-navbar" aria-expanded="false">
@@ -309,9 +322,9 @@ Surjith S M / @surjithctly
                             <li><a href="#auto">Para Auto</a></li>
                             <li><a href="#personal">Para Você</a></li>
                             <li><a href="#reviews">Certificados</a></li>
-                            <li><a href="#reviews">Associado</a></li>
-                            <li><a href="#contact">CONTATO</a></li>
-                            <li><a href="#contact" style="color: red;  font-weight: bold;">0800 770 7766</a></li>
+                            <li><a href="#advertisement">Associado</a></li>
+                            <li><a href="#contacts">CONTATO</a></li>
+                            <li><a href="#contacts" style="color: red;  font-weight: bold;">0800 770 7766</a></li>
                             <li><a href="#product-choose"
                                     class=" btn btn-warning pull-right hidden-sm hidden-xs warning-color">CONTRATAR
                                     AGORA</a></li>
@@ -398,7 +411,7 @@ Surjith S M / @surjithctly
         <div class="container">
             <div class="row section-header wow fadeInUp">
                 <h2>BenefÍcios para Auto</h2>
-                <p>Confira todos os benefícios disponiveis para seu veículo</p>
+                <p>Confira alguns benefícios disponiveis para seu veículo</p>
             </div>
             <div class="row benefit-notes">
                 <!--==========Single Benefit==========-->
@@ -710,30 +723,34 @@ Surjith S M / @surjithctly
     </section>
 
     <!--==========Page Header==========-->
-    <section class="row advertisement">
+    <section class="row advertisement" id="advertisement">
         <div class="container">
             <div class="row">
                 <h4 style="font-size: 26px; font-weight: 600;">O Clube Abraço já indenizou aproximadamente todo esse valor para seus associados:</h4>
                 <div class="counter-section">
                     <h1 class="real">R$</h1>
-                    <div class="odometer" id="odometer">00000000</div>
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/odometer.min.js"></script>
-                    <script>
-                        let value = 15999999;
-
-                        setInterval(() => {
-                            if (value != 1600000) {
-                                value += 2;
-                                odometer.innerHTML = value
-                            } else {
-                                return 16000000
-                            }
-                        }, 3000)
-                    </script>
+                    <div class="odometer" id="contador">15.999.990</div>
                 </div>
             </div>
         </div>
+            <script>
+                var contador = 15999990;
 
+                    function formatarNumero(numero) {
+                    return numero.toLocaleString('pt-BR', { minimumIntegerDigits: 8 });
+                    }
+
+                    function atualizarContador() {
+                    if (contador >= 16000000) {
+                        contador += 2;
+                    } else{
+                        contador += 2;
+                    }
+                    document.getElementById("contador").innerHTML = formatarNumero(contador);
+                    }
+
+                    setInterval(atualizarContador, 2000);
+            </script>
     </section>
     <!--==========Shortcodes Section==========-->
 
@@ -788,19 +805,29 @@ Surjith S M / @surjithctly
         </div>
     </section>
 
-<!-- <div class="address">
-                <ul class="nav">
-                    <li><i class="fa fa-map-marker"></i>Rua Guilherme leite, 210
-                        <br>Belo Horizonte, MG 31.230-100
-                    </li>
-                    <li><i class="fa fa-phone"></i>31 3332-1186 <br>
-                        <i class="fa fa-whatsapp"></i>31 3332-1186
-                    </li>
-                    <li><i class="fa fa-envelope"></i>atendimento@clubeabraco.com.br</li>
-                </ul> -->
     <!--==========Footer==========-->
-    <footer class="row footer-container">
+    <footer class="row footer-container" id="contacts">
         <div class="container">
+        <div class="address-title">CONTATOS</div>
+            <div class="address" style="margin-bottom: 50px;">
+                <div>
+                    <div class="title"><i class="fa-solid fa-phone-volume"></i><span>Assistência 24 Horas</span></div>
+                    <div>Assistência 24 Horas:  0800 770 7766 </div>
+                </div> 
+                <div>
+                    <div><i class="fa-solid fa-phone-volume"></i><span class="title"> Telefone Matriz</span></div>
+                    <div>(31) 3332-1186</div>
+                </div>
+                <div>
+                    <div><i class="fa-solid fa-phone-volume"></i><span class="title"> Telefone Filia - CE</span></div>
+                    <div>(85) 3103-0303</div>
+                </div>
+                <div>
+                    <div><i class="fa-solid fa-phone-volume"></i><span class="title"> Telefone Filia - SP</span></div>
+                    <div>(31) 3332-1186</div>
+                </div>
+            </div>
+        </div>
             <div class="address-title">Nossos Endereços</div>
             <div class="address">
                 <div>
@@ -882,7 +909,8 @@ Surjith S M / @surjithctly
             <form action="https://www.paypal.com/cgi-bin/webscr" method="POST" target="_top" class="choose-form row m0"
                 id="paypal-regn">
                 <div id="js-product-info" class="product-info">
-                    <h4 class="name" style="text-align: center;">Preencha os dados abaixo!</h4>
+                    <h4 class="name" style="text-align: center;">Preencha os dados abaixo</h4>
+                    <h6 style="text-align: center; font-size: 17px; color: #555657;">Proteção facilitada e autônoma!</h6>
                     <iframe width="100%" height="515" src="https://adm.evogerencial.com.br/novaProposta/1"
                         frameborder="0"></iframe>
                 </div>
