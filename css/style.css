@@ -4716,7 +4716,7 @@ margin: 30px 0;
   }
 
   .body-height-regulamentation{ 
-height: 0px;
+height: -200px;
 overflow-x: hidden !important;
   }
 
