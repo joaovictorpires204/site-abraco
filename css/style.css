@@ -4661,6 +4661,10 @@ margin: 30px 0;
   height: 0px;
 }
 
+.body-height-regulamentation{
+  height: 0px;
+}
+
 .navbar-brand-event{
   position: relative; 
   left: -100px; 
@@ -4669,7 +4673,7 @@ margin: 30px 0;
 
 .navbar-header-event{
   justify-content: space-between !important; 
-  margin: 0 10px
+  margin: 0 10px;
 }
 
 .event-page-content{
@@ -4711,10 +4715,19 @@ margin: 30px 0;
     overflow-x: hidden !important;
   }
 
+  .body-height-regulamentation{ 
+height: 0px;
+overflow-x: hidden !important;
+  }
+
   .navbar-brand-event{
     position: absolute; 
     top: 10px;
     left: -10px;
+  }
+
+  .navbar-collapse{
+    display: none;
   }
   
   .navbar-header-event{ 
@@ -4725,8 +4738,10 @@ margin: 30px 0;
 
   .navbar-collapse-event{ 
     position: relative;
-    top: 10px;
-    left: -350px !important;
+    top: 15px;
+    left: -330px !important;
+    width: 200px;
+    z-index: 4;
   }
 
   .assist-btn-event{
