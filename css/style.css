@@ -1988,7 +1988,7 @@ color: white;
 @media (max-width: 767px) {
   .left-right-contents {
     padding: 50px 0 80px;
-    width: 400px;
+    width: 410px;
   }
 
   .benefits{
@@ -2287,7 +2287,7 @@ color: white;
 
 @media (max-width: 767px) {
   .reviews{
-    width: 400px;
+    width: 410px;
   }
 
   .review + .review {
@@ -2712,7 +2712,7 @@ color: white;
 
 @media (max-width: 767px) {
   .mobile-app {
-    width: 400px;
+    width: 410px;
     padding: 10px 0 0px;
     text-align: center;
   }
@@ -3260,7 +3260,7 @@ margin: 30px 0;
 
 @media (max-width: 767px) {
   .advertisement{
-    width: 400px;
+    width: 410px;
   }
   .real {
     font-size: 5rem;
