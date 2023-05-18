@@ -4708,7 +4708,7 @@ margin: 30px 0;
 @media (max-width: 767px) {
   .body-height{
     height: 2000px;
-    overflow-y: hidden !important;
+    overflow-x: hidden !important;
   }
 
   .navbar-brand-event{
