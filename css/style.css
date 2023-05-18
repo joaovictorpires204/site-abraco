@@ -771,13 +771,13 @@ textarea.form-control {
   color: white !important;
 }
 
-.warning-color:hover, .warning-color:active{
+/* .warning-color:hover, .warning-color:active{
   color: #5f6162 !important;
-}
+} */
 
 @media (max-width: 499px) {
 .navbar .navbar-header .navbar-brand{
-  margin-left: 150px !important;
+  margin-left:0px !important;
 }
 
   .navbar .navbar-header .btn-warning {
@@ -811,17 +811,19 @@ textarea.form-control {
 
 @media (max-width: 767px) {
   .container-header{
-    margin-left: 60px !important;
+    margin-left: -100px !important;
   }
 
   .navbar-collapse-main{ 
     position: relative;
     top: 20px;
-    left: 190px !important;
+    left: 360px !important;
   }
 
   .assist-btn{
-    left: 3px;
+    top: 3px;
+    left: 5px;
+    margin-bottom: 10px;
   }
 }
 
@@ -896,7 +898,6 @@ left: 100px;
 
 .top-banner h2 {
   margin: 0 0 20px;
-
   font: 600 68px "Poppins", sans-serif;
   letter-spacing: -3px;
 }
@@ -1320,7 +1321,7 @@ header.video-bg {
 
 @media (max-width: 767px) {
   .the-product {
-    width: 390px;
+    width: 400px;
     padding: 50px 0 100px;
     text-align: center;
     overflow: hidden;
@@ -1807,7 +1808,7 @@ header.video-bg {
 @media (max-width: 767px) {
   .how-it-works {
     padding: 50px 0 50px;
-    width: 390px;
+    width: 400px;
   }
 }
 
@@ -1861,7 +1862,7 @@ header.video-bg {
 @media (max-width: 767px) {
   .the-benefits {
     padding: 50px 0 50px;
-    width: 390px;
+    width: 400px;
   }
 }
 
@@ -1987,7 +1988,7 @@ color: white;
 @media (max-width: 767px) {
   .left-right-contents {
     padding: 50px 0 80px;
-    width: 390px;
+    width: 400px;
   }
 
   .benefits{
@@ -2286,7 +2287,7 @@ color: white;
 
 @media (max-width: 767px) {
   .reviews{
-    width: 390px;
+    width: 400px;
   }
 
   .review + .review {
@@ -2711,7 +2712,7 @@ color: white;
 
 @media (max-width: 767px) {
   .mobile-app {
-    width: 390px;
+    width: 400px;
     padding: 10px 0 0px;
     text-align: center;
   }
@@ -3080,7 +3081,7 @@ footer.row {
 
 @media (max-width: 767px) {
   .footer-container{
-    width: 390px;
+    width: 400px;
   }
   
   .address{
@@ -3259,7 +3260,7 @@ margin: 30px 0;
 
 @media (max-width: 767px) {
   .advertisement{
-    width: 390px;
+    width: 400px;
   }
   .real {
     font-size: 5rem;
@@ -4700,6 +4701,7 @@ margin: 30px 0;
 .event-title{ 
   margin-top: -40px !important;
   margin-bottom: 40px !important;
+  text-align: center;
 }
 
 
@@ -4722,13 +4724,14 @@ margin: 30px 0;
 
   .navbar-collapse-event{ 
     position: relative;
-    left: -500px !important;
+    top: 10px;
+    left: -350px !important;
   }
 
   .assist-btn-event{
     position: relative;
     top: 5px;
-    left: -270px !important;
+    left: -250px !important;
   }
 
   .event-page-content {
@@ -4789,7 +4792,8 @@ margin: 30px 0;
 @media (max-width: 767px) {
   .div-cards {
   flex-direction: column;
-  margin: 0 40px;
+  align-items: center;
+  width: 400px;
   height: 600px;
   }
 
