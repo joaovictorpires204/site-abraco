@@ -872,6 +872,29 @@ textarea.form-control {
   font: 500 16px/40px "Poppins", sans-serif;
 }
 
+
+@media (min-width: 991px) {
+  .container-header{
+    display: flex;
+    align-items: center !important;
+    margin: 0 340px;
+    justify-content: space-between;
+  }
+
+  .top-banner {
+    height: 1000px !important;
+  }
+
+  .container-banner{ 
+    top:200px !important;
+    left: 380px !important;
+    }
+
+    .watch_img{
+      height: 400px !important;
+    }
+}
+
 .top-banner {
   position: relative;
   padding-top: 140px;
@@ -4776,6 +4799,39 @@ overflow-x: hidden !important;
   }
 }
 
+@media (min-width: 991px) {
+  .navbar-header-event{
+   position: relative;
+   left: -100px !important;
+  }
+
+  .event-page-content{
+    width: 2000px; 
+    margin-left: -70px;
+  }
+
+  .event-title{ 
+    text-align: center;
+   margin-left: 10px !important;
+  }
+  
+  .div-cards{ 
+    display: flex;
+    gap: 20px;
+    margin-left: 500px;
+  }
+  
+  .download-container{ 
+    position: relative;
+    top: -350px;
+    left: 420px !important;
+  }
+
+  .regulamentation-btn{
+    margin-left: 560px !important;
+  }
+}
+
 .div-cards{ 
   display: flex;
   gap: 20px;
@@ -4819,6 +4875,11 @@ overflow-x: hidden !important;
     width: 300px;
     height: 240px;
   }
+}
+
+.bar{
+  position: relative;
+  top: -280px;
 }
 
 .download-container{ 
