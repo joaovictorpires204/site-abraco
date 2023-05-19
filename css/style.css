@@ -3119,6 +3119,12 @@ footer.row {
   }
 }
 
+@media (min-width: 991px) {
+  .address-1{
+    margin-left: -60px;
+  }
+}
+
 .menu-rights {
   padding: 35px 0;
 }
