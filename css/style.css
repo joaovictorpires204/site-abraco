@@ -734,6 +734,7 @@ textarea.form-control {
 
 .navbar-header{
   width: 1600px !important;
+  margin-left: 10px;
   display: flex;
   align-items: center;
 }
@@ -827,7 +828,7 @@ textarea.form-control {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1440px) {
   .navbar .navbar-header .navbar-brand{
     margin-left: 150px !important;
   }
@@ -873,7 +874,7 @@ textarea.form-control {
 }
 
 
-@media (min-width: 991px) {
+@media (min-width: 1440px) {
   .container-header{
     display: flex;
     align-items: center !important;
@@ -4805,7 +4806,7 @@ overflow-x: hidden !important;
   }
 }
 
-@media (min-width: 991px) {
+@media (min-width: 1440px) {
   .navbar-header-event{
    position: relative;
    left: -100px !important;
