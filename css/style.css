@@ -830,8 +830,7 @@ textarea.form-control {
 
 @media (max-width: 1500px) {
   .container-header{
-    margin-top: 20px !important;
-    margin-left: 100px !important;
+    margin-left: 80px !important;
   }
 
   .navbar .navbar-header .navbar-brand{
