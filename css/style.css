@@ -828,7 +828,7 @@ textarea.form-control {
   }
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1500px) {
   .navbar .navbar-header .navbar-brand{
     margin-left: 150px !important;
   }
