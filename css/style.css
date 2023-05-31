@@ -2304,7 +2304,12 @@ color: white;
   padding: 100px 0 100px;
 }
 
+.reviews-row{ 
+  margin-left: 70px;
+}
+
 .review {
+  width: 500px;
   padding: 13px 15px 20px;
   text-align: center;
 }
