@@ -874,7 +874,7 @@ textarea.form-control {
 }
 
 
-@media (min-width: 1440px) {
+@media (min-width: 1510px) {
   .container-header{
     display: flex;
     align-items: center !important;
@@ -2318,6 +2318,16 @@ color: white;
   .reviews{
     width: 410px;
   }
+
+  .reviews-row{ 
+  margin-left: 0px;
+}
+
+.review {
+  width: 380px;
+  padding: 13px 15px 20px;
+  text-align: center;
+}
 
   .review + .review {
     margin-top: 30px;
@@ -4811,7 +4821,7 @@ overflow-x: hidden !important;
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1510px) {
   .navbar-header-event{
    position: relative;
    left: -100px !important;
