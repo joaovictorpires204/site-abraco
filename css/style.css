@@ -757,19 +757,36 @@ textarea.form-control {
   background-color: red;
   width: 200px;
   height: 55px;
+  padding: 10px 45px;
+  border: none;
   border-radius: 30px;
   font-size: 13px;
+  font-weight: 600;
   color: white !important;
   text-align: center;
 }
 
 .assist-btn:hover{
-  color: #5f6162 !important;
+  background-color: red !important;
+  color: white !important;
+  box-shadow:  5px 5px 10px lightgray,
+             -5px -5px 10px lightgray;
 }
 
 .warning-color{
   font-size: 15px !important;
   color: white !important;
+}
+
+.header-btns{
+  display: flex;
+  align-items: center;
+}
+
+.header-btn{ 
+border: none;
+background-color: transparent;
+margin-top: -20px;
 }
 
 /* .warning-color:hover, .warning-color:active{
@@ -818,7 +835,7 @@ textarea.form-control {
   .navbar-collapse-main{ 
     position: relative;
     top: 20px;
-    left: 360px !important;
+    left: 188px !important;
   }
 
   .assist-btn{
@@ -4684,7 +4701,6 @@ margin: 30px 0;
 }
 
 @keyframes nudge {
-
   20%,
   100% {
       transform: translate(0, 0)
@@ -4722,18 +4738,24 @@ margin: 30px 0;
 
 .navbar-brand-event{
   position: relative; 
-  left: -100px; 
+  left: -98px; 
   top: -15px
 }
 
-.navbar-header-event{
-  justify-content: space-between !important; 
-  margin: 0 10px;
+.event{
+ margin-left: 500px;
 }
 
 .event-page-content{
+  position: relative;
+  left: 180px;
   width: 1000px; 
-  margin: auto 170px;
+}
+
+.event-page-content-regulamentation{
+  position: relative;
+  left: 180px;
+  width: 1000px;
 }
 
 .div-btns{ 
@@ -4771,8 +4793,8 @@ margin: 30px 0;
   }
 
   .body-height-regulamentation{ 
-height: -200px;
-overflow-x: hidden !important;
+    height: -200px;
+    overflow-x: hidden !important;
   }
 
   .navbar-brand-event{
@@ -4780,23 +4802,19 @@ overflow-x: hidden !important;
     top: 10px;
     left: -10px;
   }
-
-  .navbar-collapse{
-    display: none;
-  }
   
-  .navbar-header-event{ 
-    display: flex;
-    flex-direction: column;
-    overflow-y: hidden;
+  .event{ 
+    position: relative;
+    top: 20px;
+    left: -20px;
+    margin-left: 0px !important;
+    width: 500px !important;
   }
 
-  .navbar-collapse-event{ 
+  .collapse-event{ 
     position: relative;
-    top: 15px;
-    left: -330px !important;
-    width: 200px;
-    z-index: 4;
+    top: 10px;
+    left: -8px;
   }
 
   .assist-btn-event{
@@ -4806,6 +4824,8 @@ overflow-x: hidden !important;
   }
 
   .event-page-content {
+    position: relative;
+    left: -10px;
     width: 400px;
     height: 600px;
     margin: 0 0px;
@@ -4817,6 +4837,17 @@ overflow-x: hidden !important;
 
   .regulamentation{
     font-size: 20px !important;
+  }
+
+  .event-page-content-regulamentation{ 
+    position: relative !important;
+    left: 50px !important;
+    width: 400px;
+  }
+
+  .regulamentation-btn{
+    position: relative ;
+    left: 40px !important;
   }
 
   .div-btns{
@@ -4834,12 +4865,12 @@ overflow-x: hidden !important;
 @media (min-width: 1510px) {
   .navbar-header-event{
    position: relative;
-   left: -100px !important;
+   left: 300px !important;
   }
 
   .event-page-content{
     width: 2000px; 
-    margin-left: -70px;
+    margin-left: -230px;
   }
 
   .event-title{ 
@@ -4912,12 +4943,13 @@ overflow-x: hidden !important;
 .bar{
   position: relative;
   top: -280px;
+  left: 10px;
 }
 
 .download-container{ 
   position: relative;
   top: -250px;
-  left: 130px;
+  left: 150px;
 }
 
 .btns-down-div{
