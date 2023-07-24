@@ -3332,7 +3332,7 @@ margin: 30px 0;
 
 @media (max-width: 767px) {
   .advertisement{
-    width: 410px;
+    width: 395px;
   }
   .real {
     font-size: 5rem;
@@ -4752,12 +4752,6 @@ margin: 30px 0;
   width: 1000px; 
 }
 
-.event-page-content-regulamentation{
-  position: relative;
-  left: 180px;
-  width: 1000px;
-}
-
 .div-btns{ 
   display: flex;
   gap: 20px;
@@ -4787,6 +4781,10 @@ margin: 30px 0;
 
 
 @media (max-width: 767px) {
+body{
+  overflow-y: auto;
+}
+
   .body-height{
     height: 2000px;
     overflow-x: hidden !important;
@@ -4808,7 +4806,6 @@ margin: 30px 0;
     top: 20px;
     left: -20px;
     margin-left: 0px !important;
-    width: 500px !important;
   }
 
   .collapse-event{ 
@@ -4831,23 +4828,17 @@ margin: 30px 0;
     margin: 0 0px;
   }
 
+  .regulamentation-btn{
+    position: relative;
+    left: 340px;
+  }
+
   .event-page-content h2{
     font-size: 32px;
   }
 
   .regulamentation{
     font-size: 20px !important;
-  }
-
-  .event-page-content-regulamentation{ 
-    position: relative !important;
-    left: 50px !important;
-    width: 400px;
-  }
-
-  .regulamentation-btn{
-    position: relative ;
-    left: 40px !important;
   }
 
   .div-btns{
