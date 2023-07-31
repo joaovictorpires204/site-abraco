@@ -4846,10 +4846,15 @@ body{
     margin: 0 5px;
   }
 
+  .above-event-title{
+    margin-left: 10px;
+  }
+
   .event-title{ 
     text-align: center;
     margin-top: -10px !important;
     margin-bottom: 40px !important;
+    margin-left: 10px;
     font-size: 35px !important;
   }
 }
@@ -4921,6 +4926,7 @@ body{
   .div-cards {
   flex-direction: column;
   align-items: center !important;
+  margin-left: 10px;
   width: 400px;
   height: 600px;
   }
@@ -4929,6 +4935,12 @@ body{
     background-color: white;
     width: 300px;
     height: 240px;
+  }
+
+  .bar{
+    position: relative;
+    top: 500px !important;
+    left: 10px;
   }
 }
 
