@@ -4783,6 +4783,7 @@ margin: 30px 0;
 @media (max-width: 767px) {
 body{
   overflow-y: auto;
+  overflow-x: hidden !important;
 }
 
   .body-height{
